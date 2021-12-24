@@ -1,0 +1,12 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  client:
+    image: adaephonben/multicast-jp-client:latest
+  server-1:
+    image: adaephonben/multicast-jp-server:latest
+  server-2:
+    image: adaephonben/multicast-jp-server:latest
+  server-3:
+    image: adaephonben/multicast-jp-server:latest
+  server-4:
+    image: adaephonben/multicast-jp-server:latest
